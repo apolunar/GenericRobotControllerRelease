@@ -13,6 +13,8 @@
 
 #### Generals
 
-[ ] Java FX path planner and pre-generator(?)
-[ ] Integrate into FTCLibContinued
-[ ] Rust ABI (working-contact me if interested)
+ - [ ] Java FX path planner and pre-generator(?)
+
+ - [ ] Integrate into FTCLibContinued
+
+ - [ ] Rust ABI (working-contact me if interested)
