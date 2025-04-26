@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Control Hub Portal" serialNumber="(embedded)" parentModuleAddress="173">
+        <LynxModule name="Expansion Hub 2" port="2">
+            <goBILDA5202SeriesMotor name="sweep" port="0" />
+            <goBILDA5202SeriesMotor name="screw" port="1" />
+            <RevTouchSensor name="limitL" port="1" />
+            <RevTouchSensor name="limitR" port="3" />
+            <RevRoboticsUltraplanetaryHDHexMotor name="slideRight" port="2" />
+            <RevRoboticsUltraplanetaryHDHexMotor name="slideLeft" port="3" />
+            <RevBlinkinLedDriver name="blinkin" port="5" />
+            <ContinuousRotationServo name="ton" port="0" />
+            <RevColorSensorV3 name="colorFront" port="1" />
+            <RevColorSensorV3 name="colorBack" port="0" />
+        </LynxModule>
+        <LynxModule name="Control Hub" port="173">
+            <goBILDA5202SeriesMotor name="leftFront" port="0" />
+            <goBILDA5202SeriesMotor name="leftBack" port="1" />
+            <goBILDA5202SeriesMotor name="rightFront" port="2" />
+            <goBILDA5202SeriesMotor name="rightBack" port="3" />
+            <Servo name="droneServo" port="2" />
+            <Servo name="spatL" port="0" />
+            <Servo name="spatR" port="5" />
+            <AnalogInput name="pot" port="0" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+        </LynxModule>
+    </LynxUsbDevice>
+    <Webcam name="camFront" serialNumber="F6042E50" />
+    <Webcam name="camBack" serialNumber="C44ECFC0" />
+</Robot>
